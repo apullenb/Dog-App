@@ -1,10 +1,36 @@
+ 
+ 
  body {
+    flex: auto;
     background-color: blueviolet;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: white;
     }
 
+h2 {
+    margin-left: 2% ;
+    font-size: 35px;
+}
+h3 {
+    font-size: 30px;
+    margin-left: 3% ;
+}
 
+h4 {
+    font-size: 20px;
+}
+  .button {
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: purple;
+    background-color: white;
+    
+}
+form {
+    margin-left: 10%;
+}
 section {
     padding-top: 15px;
     width: 80%;
