@@ -32,6 +32,7 @@ form {
     margin-left: 10%;
 }
 section {
+    flex-shrink: initial; 
     padding-top: 15px;
     width: 80%;
     margin: 0 auto;
