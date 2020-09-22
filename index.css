@@ -1,15 +1,25 @@
+ body {
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: white;
+    }
+
+
 section {
     padding-top: 15px;
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 4px;
 }
 
 img {
     width: 100%;
     height: auto;
+    border-width: 1px; 
+    border-style: solid;
+    border-color: white;
 }
 
 
